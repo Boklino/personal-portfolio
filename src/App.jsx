@@ -45,7 +45,7 @@ export default function Home() {
 			setActive('contact');
 			window.scrollTo({
 				bottom: 0,
-				top: 4270,
+				top: 4870,
 				behavior: 'smooth',
 			});
 		}
@@ -1316,14 +1316,14 @@ export default function Home() {
 							</section>
 							<section
 								className={
-									' mt-56 lg:mt-72 xl:mt-96 lg:p-28 pt-16 lg:pt-52 xl:pt-80  -mr-40 -ml-40 ' +
+									' mt-56 lg:mt-32 xl:mt-96 lg:p-2 pt-16 lg:pt-2 xl:pt-80 -mr-40 -ml-40 ' +
 									(darkMode ? 'bg-gray-900' : 'bg-gray-400')
 								}
 							>
-								<div className=' ml-64 xl:ml-96 '>
+								<div className=' ml-20  xl:ml-96 '>
 									<h1
 										className={
-											' font-burtons text-3xl mt-8 lg:mt-32  ' +
+											' font-burtons text-3xl mt-8  xl:mt-32  ' +
 											(darkMode ? 'text-slate-300 ' : '')
 										}
 									>
