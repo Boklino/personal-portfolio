@@ -490,7 +490,7 @@ export default function Home() {
 															? 'text-slate-100   border-teal-500 bg-gray-800'
 															: 'text-gray-800 hover:text-gray-200 border-teal-500 bg-gray-300 ')
 													}
-													href='https://github.com/Rathetsu/Rathetsu/blob/main/assets/resume/resume.pdf'
+													href='https://drive.google.com/file/d/1gOTd1_JtISAQgULCUnCfryDxCiWsVCaO/view?usp=share_link'
 													target='_blank'
 												>
 													Resume
