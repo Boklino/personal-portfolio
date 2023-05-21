@@ -987,7 +987,7 @@ export default function Home() {
 											</div>
 										</div>
 									</div>
-									<div className=' mt-1 lg:mt-80 xl:mt-96 py-36 xl:py-80 '>
+									<div className=' mt-1 lg:mt-80 xl:mt-96  py-36 xl:py-96 '>
 										<div className=' mt-24'>
 											<p
 												className={
@@ -1316,7 +1316,7 @@ export default function Home() {
 							</section>
 							<section
 								className={
-									' mt-56 lg:mt-72 xl:mt-96 lg:p-28 pt-16 lg:pt-52 xl:pt-72  -mr-40 -ml-40 ' +
+									' mt-56 lg:mt-72 xl:mt-96 lg:p-28 pt-16 lg:pt-52 xl:pt-80  -mr-40 -ml-40 ' +
 									(darkMode ? 'bg-gray-900' : 'bg-gray-400')
 								}
 							>
