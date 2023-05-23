@@ -27,18 +27,11 @@ export default function Home() {
 				top: 640,
 				behavior: 'smooth',
 			});
-		} else if (name === 'experience') {
-			setActive('experience');
-			window.scrollTo({
-				bottom: 0,
-				top: 1130,
-				behavior: 'smooth',
-			});
 		} else if (name === 'work') {
 			setActive('work');
 			window.scrollTo({
 				bottom: 0,
-				top: 1770,
+				top: 1110,
 				behavior: 'smooth',
 			});
 		} else if (name === 'contact') {
@@ -64,17 +57,10 @@ export default function Home() {
 				top: 440,
 				behavior: 'smooth',
 			});
-		} else if (name === 'experience') {
-			console.log('lol');
-			window.scrollTo({
-				bottom: 0,
-				top: 1100,
-				behavior: 'smooth',
-			});
 		} else if (name === 'work') {
 			window.scrollTo({
 				bottom: 0,
-				top: 1990,
+				top: 980,
 				behavior: 'smooth',
 			});
 		} else if (name === 'contact') {
@@ -189,21 +175,6 @@ export default function Home() {
 									</li>{' '}
 									<li
 										onClick={(e) => handleAbout(e)}
-										name='experience'
-										className={
-											' text-3xl cursor-pointer mt-6  text-gray-200 mr-2 font-semibold font-mono hover:text-teal-500 ' +
-											(darkMode
-												? 'text-gray-300'
-												: 'text-gray-900')
-										}
-									>
-										<span className=' text-teal-500 text-3xl font-semibold font-mono '>
-											02.
-										</span>{' '}
-										Experience
-									</li>
-									<li
-										onClick={(e) => handleAbout(e)}
 										name='work'
 										className={
 											' text-3xl cursor-pointer mt-6 lg:hidden  text-gray-200 mr-2 font-semibold font-mono hover:text-teal-500 ' +
@@ -213,9 +184,9 @@ export default function Home() {
 										}
 									>
 										<span className=' text-teal-500 text-3xl font-semibold font-mono '>
-											03.
+											02.
 										</span>{' '}
-										Work
+										Projects
 									</li>
 									<li
 										onClick={(e) => handleAbout(e)}
@@ -228,7 +199,7 @@ export default function Home() {
 										}
 									>
 										<span className=' text-teal-500 text-3xl font-semibold font-mono '>
-											04.
+											03.
 										</span>{' '}
 										Contact
 									</li>
@@ -382,24 +353,6 @@ export default function Home() {
 											</li>
 
 											<li
-												name='experience'
-												className={
-													' text-sm cursor-pointer  text-gray-200 mr-2 font-semibold font-mono hover:text-teal-500 ' +
-													(darkMode
-														? 'text-gray-300'
-														: 'text-gray-900') +
-													(active === 'experience'
-														? ' text-teal-500'
-														: ' ')
-												}
-												onClick={(e) => handleNav(e)}
-											>
-												<span className=' text-teal-500 font-semibold font-mono '>
-													02.
-												</span>{' '}
-												Experience
-											</li>
-											<li
 												name='work'
 												className={
 													' text-sm cursor-pointer hidden lg:block  text-gray-200 mr-2 font-semibold font-mono hover:text-teal-500 ' +
@@ -413,9 +366,9 @@ export default function Home() {
 												onClick={(e) => handleNav(e)}
 											>
 												<span className=' text-teal-500 font-semibold font-mono '>
-													03.
+													02.
 												</span>{' '}
-												Work
+												Projects
 											</li>
 
 											<li
@@ -432,7 +385,7 @@ export default function Home() {
 												onClick={(e) => handleNav(e)}
 											>
 												<span className=' text-teal-500 font-semibold font-mono '>
-													04.
+													03.
 												</span>{' '}
 												Contact
 											</li>
@@ -726,97 +679,6 @@ export default function Home() {
 												/>
 											</svg>
 											Sass
-										</li>
-									</ul>
-								</div>
-							</section>
-							<section>
-								<div className=' py-4'>
-									<h1
-										className={
-											' font-burtons text-3xl mt-32 ' +
-											(darkMode ? 'text-slate-300' : '')
-										}
-									>
-										Work Experience
-									</h1>
-									<p
-										className={
-											' mt-4 text-lg p-2 ml-10 ' +
-											(darkMode ? 'text-white' : '')
-										}
-									>
-										Nabta Health Ltd. <br />
-										<span className=' font-light'>
-											Full-stack Developer{' '}
-										</span>
-									</p>
-									<ul
-										className={
-											' text-md mt-2 font-light p-2 ml-14 list-inside ' +
-											(darkMode ? 'text-slate-300' : '')
-										}
-									>
-										<li>
-											• Worked on Nabta Health's website
-											front-end using React, React Router
-											and Tailwind to create responsive
-											and visually appealing user
-											interfaces.
-										</li>
-										<li>
-											• Helped develop back-end systems
-											for both Nabta Health's website and
-											mobile app using Spring and NodeJS
-											frameworks.
-										</li>
-										<li>
-											• Collaborated with cross-functional
-											teams including UX designers and QA
-											testers to ensure the timely
-											delivery of high-quality software
-											solutions.
-										</li>
-										<li>
-											• Successfully completed a project
-											to integrate a secure payment
-											gateway system into Nabta Health's
-											website and mobile app, ensuring
-											smooth and reliable transactions for
-											users.
-										</li>
-									</ul>
-									<p
-										className={
-											' mt-4 text-lg p-2 ml-10 ' +
-											(darkMode ? 'text-white' : '')
-										}
-									>
-										Robusta Studio <br />
-										<span className=' font-light'>
-											Internship
-										</span>
-									</p>
-									<ul
-										className={
-											' text-md mt-2 font-light p-2 ml-14 list-inside   ' +
-											(darkMode ? 'text-slate-300' : '')
-										}
-									>
-										<li>
-											• Worked on developing the front-end
-											of several web applications using
-											React and global state management,
-											contributing to the team's effort in
-											delivering high-quality software
-											solutions on time.
-										</li>
-										<li>
-											• Participated in the development of
-											a mobile application using React
-											Native, gaining experience in
-											cross-platform mobile development
-											and integration with back-end APIs.
 										</li>
 									</ul>
 								</div>
